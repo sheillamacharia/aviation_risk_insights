@@ -1,9 +1,10 @@
 # aviation_risk_insights
-Investigating a century of aviation accidents and incidents to generate actionable insights for stakeholders in aviation safety.
+Examining a century's worth of aviation mishaps and accidents to produce useful information for aviation safety stakeholders.
 
 # **Overview**
 
-This project analyzes historical aviation accident data to uncover patterns, evaluate accident severity, and identify risk factors associated with different aircraft types, operators, and regions. The goal is to provide data-driven insights that can help improve aviation safety decision-making and resource allocation.
+In order to find trends, assess the severity of accidents, and pinpoint risk factors related to various aircraft types, operators, and geographical areas, this project examines historical aviation accident data.  The objective is to offer data-driven insights that can enhance resource allocation and aviation safety decision-making.
+
 # **Business Understanding**
 
 # Stakeholder:
@@ -16,37 +17,27 @@ This project analyzes historical aviation accident data to uncover patterns, eva
 
 # Key Business Questions:
 
-1. Which aircraft models or manufacturers are associated with higher or lower accident rates?
-
-2. How does accident severity (measured by fatalities-to-aboard ratio) vary across different aircraft types?
-
-3. What operational or environmental factors (e.g., operator, geography, time) contribute most to accident risk?
+ 1. What aircraft models and manufacturers exhibit lower accident rates?  
+ 2. Variations in accident severity among different aircraft types.  
+ 3. Which operational factors, such as year, country, and category, influence accident risk?
 
 # **Data Understanding and Analysis**
 
 # Source of Data:
 
-Aviation accident dataset (cleaned and preprocessed) containing accident records with details on date, location, operator, aircraft type, country, fatalities, and severity.
+This preprocessed and cleaned aviation accident dataset includes accident records with information on date, location, operator, aircraft type, country, fatalities, and severity.
 
 # Description of Data (key columns):
 
-- Date – Date of accident
-
-- Location – Accident location
-
-- Country – Country where accident occurred
-
-- Operator – Airline or operator involved
-
-- Type – Aircraft type/model
-
-- Fatalities – Number of deaths in the accident
-
-- Fatal Flag – Indicates whether the accident was fatal (1) or not (0)
-
-- Year – Extracted year of accident
-
-- Cat – Accident category/classification
+ - Date of occurrence of the accident/incident
+ - Location of occurrence 
+ - Country of occurrence 
+ - Type of aircraft involved 
+ - Aircraft registration number 
+ - Operating organization/airline
+ - Aboard/Fatalities – total number of individuals on board and total number of fatalities
+ - Cate (Accident Category) – classification of the event
+ - Year – the year of occurrence extracted
 
 # **Visualizations**
 # 1. Accidents by Aircraft Type
@@ -77,14 +68,14 @@ Aviation accident dataset (cleaned and preprocessed) containing accident records
 
 # Summary of Key Findings:
 
-1. Aircraft Type Matters: A small subset of aircraft types account for the majority of accidents. Some models not only appear frequently but also have higher severity rates.
+ 1. Aircraft Type Matters: Most accidents involve a small subset of aircraft types.  Certain models have higher rates of severity in addition to being more common.
 
-2. Severity Patterns Differ: Accident severity is not uniform across aircraft — specific types show higher fatality ratios, meaning interventions should prioritize these models.
+ 2. Patterns of Severity  Differ: The severity of accidents varies among aircraft types; certain models have higher fatality ratios, so interventions should give priority to these models.
 
-3. Operational & Geographic Risks: Trends show accident concentration in specific regions and among certain operators, suggesting targeted regulatory oversight and training could reduce risk.
+ 3. Operational & Geographic Risks: Patterns indicate that certain operators and geographical areas experience a higher concentration of accidents, indicating that risk could be decreased by focused regulatory supervision and training.
 
 # Business Implication:
-By focusing safety measures on high-risk aircraft types, operators, and regions, stakeholders can reduce the likelihood and severity of future accidents.
+Stakeholders can lessen the possibility and severity of future accidents by concentrating safety measures on high-risk aircraft types, operators, and geographical areas.
 
 # Link to Interactive Dashboard
 
